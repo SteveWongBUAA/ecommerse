@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.56.101:3306/test
+server:
+  port: 8099
+logging:
+  level:
+    org.springframework.jdbc.core.JdbcTemplate: ERROR
